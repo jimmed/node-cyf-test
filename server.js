@@ -16,6 +16,8 @@ app.get("/hello", (req, res) => {
 
 const port = process.env.PORT || 3000;
 
+throw new Error("IT WENT WRONG 😖");
+
 app.listen(port, () => {
   console.log("Listening on port", port);
 });
